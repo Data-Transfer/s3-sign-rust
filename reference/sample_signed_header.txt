@@ -1,0 +1,12 @@
+SECRET: d1b8bdb35b7649deac055c3f77670f0f
+ACCESS: 00a5752015a64525bc45c55e88d2f122
+
+
+Status: 200
+GET / HTTP/1.1
+Host: s3.abc.com:7777
+Accept: */*
+Accept-Encoding: deflate, gzip, br
+Authorization: AWS4-HMAC-SHA256 Credential=00a5752015a64525bc45c55e88d2f122/20220212/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=a7e35d0b5b3ccf9c1978ff4f7ef25a3203115badf2a90fe8ead157646515bd13
+x-amz-content-sha256: UNSIGNED-PAYLOAD
+x-amz-date: 20220212T070516Z
